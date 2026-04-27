@@ -17,7 +17,7 @@ This project analyses cafe sales data using Excel, BigQuery SQL, and Tableau.
 - Wait time had little impact on customer ratings.
 
 ## Dashboard
-![Dashboard](Cafe%20Dashboard.png)
+![Dashboard](Tableau%20Dashboard.png)
 
 
 ## SQL Queries
