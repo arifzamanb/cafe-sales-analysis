@@ -23,6 +23,7 @@ This project analyses cafe sales data using Excel, BigQuery SQL, and Tableau.
 ## SQL Queries
 
 View full dataset
+
 SELECT * FROM `project-1b5d408f-99f4-4c24-a09.beginner_projects.cafe`;
 
  Highest sales by store location
