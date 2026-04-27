@@ -25,21 +25,27 @@ This project analyses cafe sales data using Excel, BigQuery SQL, and Tableau.
 View full dataset
 SELECT * FROM `project-1b5d408f-99f4-4c24-a09.beginner_projects.cafe`;
 
- Highest sales by store location 
+ Highest sales by store location
+ 
 SELECT store_location, SUM(sales)
 FROM `project-1b5d408f-99f4-4c24-a09.beginner_projects.cafe`
 group by store_location;
 
  Most profitable product categories
+ 
 select product_category, SUM(profit)
 FROM `project-1b5d408f-99f4-4c24-a09.beginner_projects.cafe`
 group by product_category;
 
-Busiest days based on sales select day_name, SUM(sales)
+Busiest days based on sales
+
+select day_name, SUM(sales)
 FROM `project-1b5d408f-99f4-4c24-a09.beginner_projects.cafe`
 group by day_name;
 
-Impact of wait time on customer ratings SELECT
+Impact of wait time on customer ratings
+
+SELECT
   CASE
     WHEN wait_time < 5 THEN 'Short Wait'
     WHEN wait_time BETWEEN 5 AND 15 THEN 'Medium Wait'
@@ -53,12 +59,14 @@ FROM `project-1b5d408f-99f4-4c24-a09.beginner_projects.cafe`
 GROUP BY wait_category
 ORDER BY avg_rating DESC;
 
-Most used payment method
-s select COUNT(payment_method)
+Most used payment methods
+
+select COUNT(payment_method)
 FROM `project-1b5d408f-99f4-4c24-a09.beginner_projects.cafe`
 group by payment_method;
 
 Sales trend over time (daily)
+
 SELECT
   order_date,
   SUM(sales) AS total_sales
