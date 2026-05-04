@@ -1,7 +1,7 @@
 Cafe Sales Analysis
 
 # Project Overview
-This project analyses cafe sales data using Excel, BigQuery SQL, and Tableau.
+This project forcasts sales of a Cafe. It showcases information of how the cafe is performing in different cities, which products are the best and how much sales are being generated. 
 
 # Tools Used
 - Excel
