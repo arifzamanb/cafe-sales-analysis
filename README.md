@@ -7,7 +7,6 @@ This project forcasts sales of a Cafe. It showcases information of how the cafe 
 - Excel
 - BigQuery
 - Tableau
-- GitHub
 
 ## Key Insights
 - Sales peaked around mid-February. Sales started to fall end of March.
